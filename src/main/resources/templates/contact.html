@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ko-kr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> 1:1 문의하기 </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MeFamily
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Shoppingmall</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown"><a href="#"><span>전체 카테고리</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>신선 식품</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">과일</a></li>
+                  <li><a href="#">채소 / 야채</a></li>
+                  <li><a href="#">쌀 / 곡물 / 잡곡</a></li>
+                  <li><a href="#">건조과일 / 견과류</a></li>
+                  <li><a href="#">육포 / 어포</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>건강식품</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">홍삼</a></li>
+                  <li><a href="#">비타민</a></li>
+                  <li><a href="#">영양제</a></li>
+                  <li><a href="#">다이어트</a></li>
+                  <li><a href="#">건강음료 / 즙 / 분말</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>뷰티</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">기초 케어</a></li>
+                  <li><a href="#">메이크업</a></li>
+                  <li><a href="#">마스크 팩</a></li>
+                  <li><a href="#">헤어 케어</a></li>
+                  <li><a href="#">클렌징</a></li>
+                  <li><a href="#">남성 화장품</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>가전 / 디지털</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">생활 가전</a></li>
+                  <li><a href="#">계절 가전</a></li>
+                  <li><a href="#">주방 가전</a></li>
+                  <li><a href="#">건강 가전</a></li>
+                  <li><a href="#">대형 가전</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>의류 / 잡화</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">여성 의류</a></li>
+                  <li><a href="#">남성 의류</a></li>
+                  <li><a href="#">유니섹스</a></li>
+                  <li><a href="#">아동복</a></li>
+                  <li><a href="#">언더웨어 / 잠옷</a></li>
+                  <li><a href="#">신발</a></li>
+                  <li><a href="#">가방</a></li>
+                  <li><a href="#">시계 / 주얼리 / 잡화</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="active" href="index.html">할인 쇼핑몰</a></li>
+          <li><a href="our-story.html">특가 할인</a></li>
+          <li><a href="events.html">제품 상세</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        
+          <li><a href="contact.html">1:1 문의하기</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>1:1 문의하기</h2>
+          <ol>
+            <li><a href="index.html">할인 쇼핑몰</a></li>
+            <li>1:1 문의하기</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contact-us" class="contact-us">
+      <div class="container">
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.0088551298027!2d126.88741648779832!3d37.504052513866114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9fbf585ca17b%3A0x593d7c8d83e173f9!2z7J207KCg7Lu07ZOo7YSw7JWE7Lm0642w66-4IOyLoOuPhOumvOy6oO2NvOyKpA!5e0!3m2!1sko!2skr!4v1699329704337!5m2!1sko!2skr" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Sindorim, Seoul, South Korea</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>estreleo@naver.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p> 010 6667 1382</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" required>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Us Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Shoppingmall</h3>
+      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>MeFamily</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
